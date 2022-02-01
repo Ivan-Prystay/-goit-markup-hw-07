@@ -1,0 +1,19 @@
+.header-contact {
+  display: flex;
+  @include text-basic;
+  align-items: center;
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__mail,
+  &__tel {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 10px;
+  }
+}
